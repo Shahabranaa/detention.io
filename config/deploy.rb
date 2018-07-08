@@ -1,5 +1,5 @@
- Change these
-server 'your_server_ip', port: your_port_num, roles: [:web, :app, :db], primary: true
+ #Change these
+server '54.82.51.196', port: 80, roles: [:web, :app, :db], primary: true
 
 set :repo_url,        'https://github.com/Shahabranaa/detention.io'
 set :application,     'appname'
